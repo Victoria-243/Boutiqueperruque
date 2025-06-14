@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boutique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Perruques Élégantes</h1>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="boutique.html">Boutique</a></li>
+        <li><a href="panier.html">Panier</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="produits">
+    <h2>Nos Perruques</h2>
+    <div class="produit">
+      <img src="photo/per.webp" alt="Perruque Luxe Femme">
+      <h3>Perruque Luxe Femme</h3>
+      <p>Prix : 25 000 FC</p>
+      <button onclick="ajouterAuPanier('Perruque Luxe Femme', 25000)">Ajouter au panier</button>
+    </div>
+
+    <div class="produit">
+      <img src="photo/vvv.webp" alt="Perruque Classique Mère">
+      <h3>Perruque Classique Mère</h3>
+      <p>Prix : 18 000 FC</p>
+      <button onclick="ajouterAuPanier('Perruque Classique Mère', 18000)">Ajouter au panier</button>
+    </div>
+
+    <div class="produit">
+      <img src="photo/perr.webp" alt="Perruque Mini Fille">
+      <h3>Perruque Mini Fille</h3>
+      <p>Prix : 12 000 FC</p>
+      <button onclick="ajouterAuPanier('Perruque Mini Fille', 12000)">Ajouter au panier</button>
+    </div>
+
+     <div class="produit">
+      <img src="photo/fdd.webp" alt="Perruque Classique Mère">
+      <h3>Perruque Genial</h3>
+      <p>Prix : 28 000 FC</p>
+      <button onclick="ajouterAuPanier('Perruque Genial', 28000)">Ajouter au panier</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Perruques Élégantes.</p>
+  </footer>
+
+  <script src="panier.js"></script>
+</body>
+</html>

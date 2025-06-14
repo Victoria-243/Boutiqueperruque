@@ -1,0 +1,219 @@
+/* ======= Styles généraux ======= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ======= Barre de navigation ======= */
+.navbar {
+  background-color: #c71585;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.navbar .logo {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* ======= Section hero (accueil) ======= */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: darkorange;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 12px 25px;
+  background-color: #fff;
+  color: #c71585;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #f2f2f2;
+}
+
+/* ======= Produits ======= */
+.produits {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.produits h2 {
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #c71585;
+}
+
+.produit {
+  display: inline-block;
+  width: 280px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.produit img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.produit h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.produit p {
+  color: #c71585;
+  font-weight: bold;
+}
+
+.produit button {
+  padding: 10px 20px;
+  background-color: #c71585;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.produit button:hover {
+  background-color: #a50d6f;
+}
+
+/* ======= Panier ======= */
+main {
+  padding: 40px 20px;
+}
+
+#contenu-panier {
+  margin-top: 20px;
+}
+
+.article-panier {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.article-panier button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  margin-top: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.article-panier button:hover {
+  background-color: #e60000;
+}
+
+#total {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* ======= Formulaire Contact ======= */
+form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #c71585;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: #a50d6f;
+}
+
+/* ======= Pied de page ======= */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #c71585;
+  color: white;
+  margin-top: 40px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
